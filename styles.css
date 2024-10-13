@@ -32,7 +32,7 @@ button {
     background-color: #5b3c29;
 }
 
-#upgrade-btn {
+#upgrade-btn, #espresso-btn, #cappuccino-btn, #assistant-btn {
     background-color: #f39c12;
     color: white;
     border: none;
@@ -40,7 +40,7 @@ button {
     cursor: pointer;
 }
 
-#upgrade-btn:disabled {
+#upgrade-btn:disabled, #espresso-btn:disabled, #cappuccino-btn:disabled, #assistant-btn:disabled {
     background-color: #bdc3c7;
     cursor: not-allowed;
 }
