@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Express</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game">
+        <h1>Café Express</h1>
+        <p>Cliques pour servir des cafés !</p>
+        <button id="click-btn">Servir un café ☕</button>
+        <p>Cafés servis : <span id="coffee-count">0</span></p>
+        <p>Argent : <span id="money-count">0</span> $</p>
+        
+        <h2>Améliorations</h2>
+        <button id="upgrade-btn" disabled>Améliorer la machine à café (coût: 50 $)</button>
+        <p>Niveau de la machine à café : <span id="upgrade-level">1</span></p>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
